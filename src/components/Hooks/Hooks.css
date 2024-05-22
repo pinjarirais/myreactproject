@@ -1,0 +1,27 @@
+/* Use State */
+.title{margin-bottom: 40px; color: #777;}
+.usestate{display: flex; flex-direction: row; font-size: 18px; align-items: center; justify-content: center;}
+.usestate input{border: 1px solid #f2f2f2; outline: none; padding: 10px 20px; width: 100px; text-align: center;}
+.usestate button{background-color: #0076d7; border: 0; color: #fff; font-size: 24px; padding: 10px 20px; border-radius: 6px;}
+.form__outer{margin-top: 40px;}
+.form__title{color: #777;}
+.form__outer form{display: flex; flex-direction: column; align-items: center; margin-top: 20px;}
+.form__outer form input{border: 1px solid #f2f2f2; padding: 6px 15px; border-radius: 6px; font-size: 14px; width: 300px; margin-bottom: 10px; outline: none; color: #111;}
+.form__outer form button{background-color: #0076d7; border: 0; color: #fff; font-size: 16px; padding: 6px 20px; border-radius: 6px;}
+.color777{color: #777;}
+
+/* Use Effect */
+
+
+/* UseRef */
+.useRef__outer input{border: 1px solid #ddd; padding: 6px 15px; border-radius: 6px; font-size: 14px; width: 300px; margin-bottom: 10px; outline: none; color: #111;}
+.useRef__outer button{background-color: #0076d7; border: 0; color: #fff; font-size: 16px; padding: 6px 20px; border-radius: 6px;}
+
+/* Usecallback */
+.addtodo{background-color: #0076d7; border: 0; color: #fff; font-size: 16px; padding: 6px 20px; border-radius: 6px;}
+.incbtn{border: 0; border-radius:6px; font-size: 16px; padding: 6px 25px; margin-left: 20px; background-color: #111; color: #fff;}
+
+/* Usememo Hooks */
+.Counterbtn{border: 0; border-radius:6px; font-size: 16px; padding: 6px 25px; background-color: #111; color: #fff;}
+.clickmebtn{background-color: #0076d7; border: 0; color: #fff; font-size: 16px; padding: 6px 20px; border-radius: 6px;}
+.mt30{margin-top: 30px;}

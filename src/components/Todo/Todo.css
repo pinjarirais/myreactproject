@@ -1,0 +1,9 @@
+.todo__input{display: flex; justify-content: space-between; width: 350px; flex-flow: row nowrap; margin: 0 auto; background-color: #fff; border: 1px solid #ccc; border-radius: 6px; overflow: hidden; align-items: center;}
+.todo__input input{width: 100%; border: 0; position: relative; padding: 6px 15px; outline: none;}
+.pluseIcon{cursor: pointer; font-size: 24px; padding: 0 8px;}
+.checklisttbtn{margin-top: 20px; border-radius: 6px; background-color: #0076d7; padding: 4px 10px; border: 0; color: #fff; font-size: 14px; font-weight: 500; }
+
+.todo_list_wrapper{display: flex; justify-content: space-between; width: 350px; flex-wrap: wrap; margin: 0 auto; margin-top: 20px;}
+.todolist{display: flex; width: 100%; align-items: center; justify-content: space-between; background-color: #f2f2f2; border-radius: 6px; padding: 5px 15px; margin-bottom: 10px;}
+.listbtn span{padding: 10px; cursor: pointer; font-size: 14px; font-weight: 500;}
+.todolist h4{font-size: 16px; font-weight: 600; line-height: normal; margin-bottom: 0;}
