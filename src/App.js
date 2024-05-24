@@ -17,6 +17,7 @@ import UseRef from './components/Hooks/UseRef';
 import CallBackHooks from './components/Hooks/Usecallback';
 import Usememohooks from './components/Hooks/Usememohooks';
 import Apicall from './components/Apicall/Apicall';
+import ReduxApicall from './components/ReduxApicall';
 
 export const Globledata = createContext();
 
@@ -45,6 +46,7 @@ function App() {
                 <Route path="/Usecallback" element={<CallBackHooks />} />
                 <Route path="/Usememohooks" element={<Usememohooks />} />
                 <Route path="/Apicall" element={<Apicall />} />
+                <Route path="/ReduxApicall" element={<ReduxApicall />} />
               </Routes>
             </div>
           </Globledata.Provider>

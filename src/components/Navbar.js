@@ -19,6 +19,7 @@ function Navbar() {
                 <li><NavLink to="/UseCallBack">Usecallback</NavLink></li>
                 <li><NavLink to="/Usememohooks">UseMemo</NavLink></li>
                 <li><NavLink to="/Apicall">Apicall</NavLink></li>
+                <li><NavLink to="/ReduxApicall">ReduxApicall</NavLink></li>
             </ul>
             
         </>
