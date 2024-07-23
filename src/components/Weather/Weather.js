@@ -13,6 +13,8 @@ const Weather = () => {
             const res = await fetch(url);
             const data = await res.json();
 
+            console.log(data);
+
             const { temp, pressure, humidity } = data.main;
             const { main: weathermood } = data.weather[0];
             const { speed } = data.wind;

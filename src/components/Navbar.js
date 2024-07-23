@@ -20,6 +20,7 @@ function Navbar() {
                 <li><NavLink to="/Usememohooks">UseMemo</NavLink></li>
                 <li><NavLink to="/Apicall">Apicall</NavLink></li>
                 <li><NavLink to="/ReduxApicall">ReduxApicall</NavLink></li>
+                <li><NavLink to="/Callfakeapi">Call fake api</NavLink></li>
             </ul>
             
         </>

@@ -46,6 +46,8 @@ const Todo = () => {
         }
     }
 
+    console.log(items)
+
     const edititem = (index)=>{
         const editediteams = items.find((currElm)=>{
             return currElm.id === index;
